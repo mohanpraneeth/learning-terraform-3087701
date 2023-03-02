@@ -32,7 +32,7 @@ module "vpc" {
   }
 }
 
-
+ 
 
 resource "aws_instance" "blog" {
   ami           = data.aws_ami.app_ami.id
